@@ -1,6 +1,4 @@
-# twitter_nodejs
-
-##Twitter Clone API
+# Twitter Clone API
 
 This project implements a simplified backend API for a Twitter-like application using Node.js and SQLite. It provides endpoints to handle user registration, authentication, tweet management, and social interactions.
 
@@ -26,16 +24,16 @@ This project implements a simplified backend API for a Twitter-like application 
 
 ## APIs Provided
 
-1. Registration and Login
+1. **Registration and Login**
    - `/register/`: POST request to register a new user.
    - `/login/`: POST request to authenticate and receive a JWT token.
 
-2. Tweet Operations
+2. **Tweet Operations**
    - `/user/tweets/feed/`: GET request to fetch tweets from followed users.
    - `/user/tweets/`: GET and POST requests for managing user tweets.
    - `/tweets/:tweetId/`: GET and DELETE requests for specific tweet operations.
 
-3. Social Interactions
+3. **Social Interactions**
    - `/user/following/`: GET request to fetch users followed by the logged-in user.
    - `/user/followers/`: GET request to fetch users following the logged-in user.
    - `/tweets/:tweetId/likes/`: GET request to fetch users who liked a tweet.
