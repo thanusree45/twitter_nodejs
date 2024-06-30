@@ -1,6 +1,6 @@
 # twitter_nodejs
 
-Twitter Clone API
+**Twitter Clone API**
 
 This project implements a simplified backend API for a Twitter-like application using Node.js and SQLite. It provides endpoints to handle user registration, authentication, tweet management, and social interactions.
 
